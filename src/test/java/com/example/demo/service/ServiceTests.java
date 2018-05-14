@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
@@ -16,11 +16,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 import com.example.demo.dto.EmployeeDto;
 import com.example.demo.entity.Employee;
 import com.example.demo.repository.EmployeeRepository;
-import com.example.demo.service.EmployeeService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class UnittestApplicationTests {
+public class ServiceTests {
 
 	// @InjectMocks
 	// EmployeeService employeeService;
